@@ -1,0 +1,10 @@
+---
+layout: default
+---
+
+<div class="article">
+	<h3>{{page.title}}</h3>
+	<div class="article-date">{{page.date | date_to_string: "ordinal", "US"}}</div>
+
+	{{content}}
+</div>
